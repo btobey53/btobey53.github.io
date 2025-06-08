@@ -76,4 +76,38 @@
   <h2>Featured Products</h2>
 
   <ol>
-    <li><strong>Smart Glucose Monitor</strong>: Portable device tha
+    <li><strong>Smart Glucose Monitor</strong>: Portable device that tracks blood sugar levels in real-time.</li>
+    <li><strong>Advanced Heart Rate Sensor</strong>: Wearable sensor for continuous heart health monitoring.</li>
+    <li><strong>Telemedicine Platform</strong>: Secure and user-friendly platform for remote doctor consultations.</li>
+  </ol>
+
+  <p>
+    Learn more about healthcare technology advancements on 
+    <a href="https://www.who.int" target="_blank" rel="noopener noreferrer" class="external-link">World Health Organization</a>.
+  </p>
+
+  <p>
+    For company info, visit our 
+    <a href="about.html">About Us</a> page.
+  </p>
+
+  <p>
+    <a href="mailto:contact@healthcarecompany.com">Contact me</a> for questions or feedback.
+  </p>
+
+  <!-- Downloadable PDF file located in /downloads/ folder -->
+  <p>
+    <a href="downloads/Healthcare_Product_Catalog.pdf" download>Download Our Product Catalog (PDF)</a>
+  </p>
+
+  <footer>
+    <p>Page last modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    // Display the last modified date dynamically
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+
+</body>
+</html>
