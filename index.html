@@ -1,108 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Healthcare Company - Products</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
-      color: #003366;
-      margin: 20px;
-    }
-
-    h1 {
-      font-family: Georgia, serif;
-      color: #006400;
-      font-size: 36px;
-      text-align: center;
-    }
-
-    .intro {
-      font-size: 18px;
-      font-style: italic;
-      margin-bottom: 20px;
-    }
-
-    .highlight {
-      font-weight: bold;
-      text-decoration: underline;
-      color: #cc0000;
-      font-size: 22px;
-    }
-
-    a.external-link {
-      color: #cc6600;
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666666;
-      border-top: 1px solid #cccccc;
-      padding-top: 10px;
-      text-align: center;
-    }
-
-    img {
-      max-width: 300px;
-      display: block;
-      margin: 20px auto;
-      border-radius: 8px;
-      border: 2px solid #003366;
-    }
-  </style>
+  <title>Healthcare Products</title>
 </head>
-<body>
+<body style="font-family: Arial; background-color: #f9f9f9; color: #333;">
 
-  <h1>Our Healthcare Products</h1>
+  <h1 style="color: green; font-family: Georgia; font-size: 30px; text-align: center;">
+    Our Healthcare Products
+  </h1>
 
-  <p class="intro">
-    At <span class="highlight">HealthPlus Co.</span>, we offer a range of <em>innovative</em> and <strong>affordable</strong> healthcare solutions to meet modern needs.
+  <p style="font-size: 16px; color: black;">
+    Welcome to <b><u>HealthPlus Co.</u></b>! We offer a range of <i>innovative</i> and <b>affordable</b> healthcare products.<br><br>
   </p>
 
-  <img src="images/healthcare-products.jpg" alt="Healthcare Products" />
+  <!-- Image -->
+  <img src="images/healthcare-products.jpg" alt="Healthcare Products" width="300" style="border: 2px solid #003366;"><br><br>
 
-  <h2>Product Categories</h2>
+  <!-- Unordered list -->
+  <b style="color: darkblue; font-size: 18px;">Product Categories:</b><br>
   <ul>
     <li>Medical Devices</li>
     <li>Pharmaceuticals</li>
     <li>Digital Health Tools</li>
     <li>Wellness & Therapy</li>
-  </ul>
+  </ul><br>
 
-  <h2>Top-Selling Products</h2>
+  <!-- Ordered list -->
+  <b style="color: darkred; font-size: 18px;">Top-Selling Products:</b><br>
   <ol>
-    <li><strong>Smart Glucose Monitor</strong> – Real-time blood sugar tracking</li>
-    <li><strong>Portable ECG Device</strong> – Instant heart rate diagnostics</li>
-    <li><strong>TeleHealth Kit</strong> – Tools for remote doctor-patient visits</li>
-  </ol>
+    <li><b>Smart Glucose Monitor</b> – Real-time blood sugar tracking</li>
+    <li><b>Portable ECG Device</b> – Instant heart rate diagnostics</li>
+    <li><b>TeleHealth Kit</b> – Tools for remote doctor-patient visits</li>
+  </ol><br>
 
-  <p>
-    Learn more from the <a href="https://www.mayoclinic.org" class="external-link" target="_blank" rel="noopener noreferrer">Mayo Clinic</a>.
+  <!-- External link -->
+  Learn more from the <a href="https://www.mayoclinic.org" target="_blank">Mayo Clinic</a>.<br><br>
+
+  <!-- Internal link -->
+  Visit our <a href="about.html">About Us</a> page.<br><br>
+
+  <!-- Email contact -->
+  <a href="mailto:contact@healthplus.com">Contact me</a> for product inquiries.<br><br>
+
+  <!-- Download link -->
+  <a href="downloads/Healthcare_Product_Catalog.pdf" download>Download Product Catalog (PDF)</a><br><br>
+
+  <!-- Last modified (basic, not automatic without script) -->
+  <p style="font-size: 12px; color: gray;">
+    Page last modified: <span id="lastModified">[auto date here]</span>
   </p>
-
-  <p>
-    Visit our <a href="about.html">About Us</a> page to learn more about our mission.
-  </p>
-
-  <p>
-    <a href="mailto:contact@healthplus.com">Contact me</a> for inquiries or support.
-  </p>
-
-  <p>
-    <a href="downloads/Healthcare_Product_Catalog.pdf" download>Download Product Catalog (PDF)</a>
-  </p>
-
-  <footer>
-    Page last modified: <span id="lastModified"></span>
-  </footer>
 
   <script>
-    // Display the last modified date
-    document.getElementById('lastModified').textContent = document.lastModified;
+    // Simple script to auto-fill last modified date
+    document.getElementById("lastModified").textContent = document.lastModified;
   </script>
 
 </body>
